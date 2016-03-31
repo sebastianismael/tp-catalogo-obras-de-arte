@@ -3,7 +3,6 @@ package ar.edu.unlam.tallerweb.obras;
 public class Autor {
 
 	private String nombreAutor;
-	
 	public Autor(String nombre){
 		this.nombreAutor=nombre;
 	}
