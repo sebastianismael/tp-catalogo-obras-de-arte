@@ -16,7 +16,7 @@ public class CatalogoTest {
     
     @Test
     public void testCrearCatalogoVacio(){
-        Assert.assertTrue(1 == catalogo.ontenerCantidadObras());
+        Assert.assertTrue(0 == catalogo.ontenerCantidadObras());
     }
 
     @Test
