@@ -47,6 +47,7 @@ public class ObraDeArte implements Comparable<ObraDeArte> {
 	}
 	
 	public String getNombre(){
+		System.out.println("hola");
 		return this.nombreObraDeArte;
 	}
 
