@@ -22,7 +22,7 @@ public class CatalogoTest {
     @Test
     public void testAgregarObra() throws Exception{
         catalogo.agregarObra(new ObraDeArte("Giotto", new Autor("Miguel Angel")));
-        Assert.assertTrue(1 == catalogo.ontenerCantidadObras());
+        Assert.assertTrue(12 == catalogo.ontenerCantidadObras());
     }
 
     @Test
